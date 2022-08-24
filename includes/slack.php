@@ -64,7 +64,7 @@ function my_send_slack_notification( $import_id ) {
         $deleted = $soflyyrow->deleted;
     }
 
-    $api_url = 'https://hooks.slack.com/services/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';
+    $api_url = '';
     $notification_text = '3. '  . $dealername . ' Import has been Complete. 
     Vehicles imported: ' . $imported . ' 
     Vehicles Updated: '.$updated.' 
