@@ -1,0 +1,35 @@
+#btn-yby{
+    width: 100%;
+    display: none;
+}
+
+#btn-yby span.h4{
+    color: #fff!important;
+    text-transform: capitalize;
+}
+
+#btn-yby i {
+    position: relative;
+    font-size: 29px;
+    color: #fff;
+    justify-content: center;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+@media (max-width: 1025px) {
+
+    #btn-yby{
+        display: block;
+    }
+
+    #tog-yby{
+        display: none;
+    }
+
+    .sidebar-entry-header{
+        display: none;
+    }
+
+
+}
