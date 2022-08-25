@@ -32,7 +32,7 @@
 
 .reserve-button{
     
-    background: #000000!important;
+    background: var(--aimMainColor)!important;
         width: 60px;
         height: 60px;
     border: none;
@@ -48,14 +48,14 @@ margin: 15px auto;
 }
     
 .reserve-button:hover,.reserve-button:focus, .reserve-button:active{
-    background: #00B2FF!important;
+    background: var(--aimMainColor)!important;
     width: 190px;
     
     } 
     
 .credit-button{
     
-    background: #000000!important;
+    background: var(--aimMainColor)!important;
         width: 60px;
         height: 60px;
     border: none;
@@ -71,14 +71,14 @@ margin: 15px auto;
 }
     
 .credit-button:hover{
-    background: #00CA14!important;
+    background: var(--aimMainColor)!important;
     width: 190px;
     
     } 
 
 
 .btest-drive-button{
-    background: #000000!important;
+    background: var(--aimMainColor)!important;
         width: 60px;
         height: 60px;
     border: none;
@@ -93,14 +93,14 @@ margin: 15px auto;
 }
 
 .btest-drive-button:hover{
-     background: #FFB800!important;
+     background: var(--aimMainColor)!important;
     width: 190px;
     
 }
 
 
 .vtrade-button{
-    background: #000000!important;
+    background: var(--aimMainColor)!important;
         width: 60px;
         height: 60px;
     border: none;
@@ -116,13 +116,13 @@ margin: 15px auto;
 }
 
 .vtrade-button:hover{
-     background: #FF0000!important;
+     background: var(--aimMainColor)!important;
     width: 190px;
     
 }
 
 .moffer-button{
-    background: #000000!important;
+    background: var(--aimMainColor)!important;
         width: 60px;
         height: 60px;
     border: none;
@@ -138,12 +138,12 @@ margin: 15px auto;
 }
 
 .moffer-button:hover{
-     background: #00E2AC!important;
+     background: var(--aimMainColor)!important;
     width: 190px;
 }
 
 .greview-button{
-    background: #000000!important;
+    background: var(--aimMainColor)!important;
         width: 60px;
         height: 60px;
     border: none;
@@ -158,12 +158,12 @@ margin: 15px auto;
 }
 
 .greview-button:hover{
-    background: #BABABA!important;
+    background: var(--aimMainColor)!important;
     width: 190px;
 }
 
 .insurance-button{
-    background: #000000!important;
+    background: var(--aimMainColor)!important;
         width: 60px;
         height: 60px;
     border: none;
@@ -179,7 +179,7 @@ margin: 15px auto;
 }
 
 .insurance-button:hover{
-    background: #000000!important;
+    background: var(--aimMainColor)!important;
     width: 190px;
 }
 
@@ -268,7 +268,7 @@ color: #fff!important;
     
     
     background-image: url("../img/TestDrive_Base.png")!important;
-    background-color: #000000!important;
+    background-color: var(--aimMainColor)!important;
     width: 100%!important;
  /* max-width: 330px !important;*/
     background-repeat: no-repeat!important;
@@ -296,7 +296,7 @@ transition: box-shadow 0.4s ease-in-out;
 .aim-g-review {
     
     background-image: url("../img/Google_Base.png")!important;
-    background-color: #000000!important;
+    background-color: var(--aimMainColor)!important;
     width: 100%!important;
     /* max-width: 330px !important;*/
     background-repeat: no-repeat!important;
@@ -322,7 +322,7 @@ transition: box-shadow 0.4s ease-in-out;
 .value-trade-aim{
     background-image: url("../img/ValueTrade_Base.png")!important;
     width: 100%!important;
-    background-color: #000000!important;
+    background-color: var(--aimMainColor)!important;
    /* max-width: 330px !important;*/
     background-repeat: no-repeat!important;
     height: 44px!important;
@@ -349,7 +349,7 @@ transition: box-shadow 0.4s ease-in-out;
 .make-offer-aim{
     background-image: url("../img/MakeOffer_Base.png")!important;
     width: 100%!important;
-    background-color: #000000!important;
+    background-color:var(--aimMainColor)!important;
     /* max-width: 330px !important;*/
     background-repeat: no-repeat!important;
     height: 44px!important;
@@ -372,7 +372,7 @@ transition: box-shadow 0.4s ease-in-out;
 .credit-apply-aim{
     background-image: url("../img/Credit_Base.png")!important;
     width: 100%!important;
-    background-color: #000000 !important;
+    background-color: var(--aimMainColor) !important;
     /* max-width: 330px !important;*/
     background-repeat: no-repeat!important;
     height: 44px!important;
@@ -396,7 +396,7 @@ transition: box-shadow 0.4s ease-in-out;
 .reserve-now{
     background-image: url("../img/Reserve_Base.png")!important;
     width: 100%!important;
-    background-color: #000000!important;
+    background-color: var(--aimMainColor)!important;
     /* max-width: 330px !important;*/
     background-repeat: no-repeat!important;
     height: 44px!important;
@@ -442,10 +442,10 @@ transition: box-shadow 0.4s ease-in-out;
 }
 
 #aim_calculator_preview_boxes .aim_calculator_preview_box_main_button{
-    background: #000000!important;
+    background: var(--aimMainColor)!important;
 }
 #aim_calculator_preview_boxes .aim_calculator_preview_box_amount{
-    color: #000000!important;
+    color: var(--aimMainColor)!important;
 }
 
 
