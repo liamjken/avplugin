@@ -418,7 +418,7 @@ transition: box-shadow 0.4s ease-in-out;
 }
 
 .srp-vsa-b{
-background-color: var(--aimMainColor)!important;
+background: var(--aimMainColor)!important;
 }
 
 .vsa-modal{
