@@ -12,6 +12,6 @@ function autoverify_sdk_wp_attr(){
     //Close PHP tags 
     ?>
 <div id="av_vehicle_information" data-av-vin="<?php echo esc_attr($vin_num); ?>" data-av-price="<?php echo esc_attr($price); ?>" data-av-condition="<?php echo esc_attr($condition); ?>" data-av-make="<?php echo esc_attr($make); ?>" data-av-model="<?php echo esc_attr($model); ?>" data-av-trim="<?php echo esc_attr($trim); ?>" data-av-mileage="<?php echo esc_attr($mileage); ?>"></div>
-<script async defer src="https://sdk.autoverify.com/0c4562f8-d4cc-4156-8293-e2ccd65d7f7d/44a91960-9437-4b2a-b431-700228bd1333/sdk.min.js"></script>
+<script async defer src=""></script>
     <?php //Open PHP tags
 }
