@@ -6,8 +6,8 @@ add_action('admin_menu', 'av_plugin_create_menu');
 function av_plugin_create_menu() {
 
   //create new top-level menu
-  add_menu_page('av Plugin Settings', 'av Settings', 'administrator', __FILE__, 'av_plugin_settings_page' , plugins_url('/img/icon.png', __DIR__), );
-  add_submenu_page(__FILE__, 'av Shortcode', 'av Shortcode', 'manage_options', __FILE__.'/custom', 'shortcode_av');
+  add_menu_page('AV Plugin Settings', 'AV Settings', 'administrator', __FILE__, 'av_plugin_settings_page' , plugins_url('/img/icon.png', __DIR__), );
+  add_submenu_page(__FILE__, 'AV Shortcode', 'AV Shortcode', 'manage_options', __FILE__.'/custom', 'shortcode_av');
 
 
   //call register settings function
