@@ -21,7 +21,7 @@ function vsa_listings_buttons_function() {
     $vin_num = get_post_meta(get_the_id(), 'vin_number', true);
 	ob_start();
 	?> 
-                <a class="vsa-active" href="/virtual-sales-assistant/?<?php echo esc_attr($vin_num); ?>" target=_deal><img src="<?php echo plugin_dir_url( __FILE__ ) . '/img/CTA_With_No_Negotiate.gif'; ?>" style="margin-top: 10px; width:100%;border-radius: 20px;"></a> <?php
+                <a class="vsa-active" href="/virtual-sales-assistant/?<?php echo esc_attr($vin_num); ?>" target=_deal><img src="<?php echo plugin_dir_url( __FILE__ ) . '/img/Highland_CT_With_No_Negotiate.gif'; ?>" style="margin-top: 10px; width:100%;border-radius: 20px;"></a> <?php
 	return ob_get_clean();
 }
 
