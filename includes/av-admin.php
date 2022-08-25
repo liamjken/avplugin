@@ -51,7 +51,7 @@ function av_plugin_settings_page() {
       
       <tr valign="top">
       <th scope="row">av dealer ID</th>
-      <td><input type="text" name="av_dealer_id" value="<?php echo esc_attr( get_option('aim_dealer_id') ); ?>" /></td>
+      <td><input type="text" name="aim_dealer_id" value="<?php echo esc_attr( get_option('aim_dealer_id') ); ?>" /></td>
       </tr>
     
      <tr valign="top">
