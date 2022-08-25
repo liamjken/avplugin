@@ -15,7 +15,7 @@ add_action('wp_enqueue_scripts', 'plugin_styles');
 
 function plugin_styles() {
     wp_enqueue_style('AvPluginStyles', plugins_url('/css/style.css', __FILE__));
-    wp_enqueue_style('AvPluginStyles', plugins_url('/css/vsa-style.css', __FILE__));	
+    wp_enqueue_style('VSAStyles', plugins_url('/css/vsa-style.css', __FILE__));	
 }
 
 add_action('wp_enqueue_scripts', 'plugin_scripts');
