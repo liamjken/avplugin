@@ -417,6 +417,10 @@ transition: box-shadow 0.4s ease-in-out;
    
 }
 
+.srp-vsa-b{
+background-color: #00ff00!important;
+}
+
 .vsa-modal{
     background-image: url("../img/Green-NoNegotiate.gif")!important;
     background-color: #00ff00!important;
