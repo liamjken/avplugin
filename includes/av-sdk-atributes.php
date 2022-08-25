@@ -9,9 +9,10 @@ function autoverify_sdk_wp_attr(){
     $model = get_post_meta(get_the_ID(), 'serie', true);
     $trim = get_post_meta(get_the_ID(), 'trim', true);
     $mileage = get_post_meta(get_the_ID(), 'mileage', true);
+    $sdkurl = esc_attr( get_option('av_sdk_url') );
     //Close PHP tags 
     ?>
 <div id="av_vehicle_information" data-av-vin="<?php echo esc_attr($vin_num); ?>" data-av-price="<?php echo esc_attr($price); ?>" data-av-condition="<?php echo esc_attr($condition); ?>" data-av-make="<?php echo esc_attr($make); ?>" data-av-model="<?php echo esc_attr($model); ?>" data-av-trim="<?php echo esc_attr($trim); ?>" data-av-mileage="<?php echo esc_attr($mileage); ?>"></div>
-<script async defer src=""></script>
+<script async defer src="<?php echo esc_attr($sdkurl); ?>"></script>
     <?php //Open PHP tags
 }
