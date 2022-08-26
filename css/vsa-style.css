@@ -417,9 +417,7 @@ transition: box-shadow 0.4s ease-in-out;
    
 }
 
-img.srp-vsa-b{
-background: var(--aimMainColor)!important;
-}
+
 
 .vsa-modal{
     background-image: url("../img/Green-NoNegotiate.gif")!important;
