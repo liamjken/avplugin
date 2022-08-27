@@ -23,9 +23,9 @@ function aim_buttonss_static_function() {
 
 <script src="https://automediaservices.com/apps/deal_widgets/google_review/js/widget.js"type="text/javascript"></script>
 <div class="aim_deal_google_review_app vsa-active" dealer_id="<?php echo do_shortcode("[aimDealerID]"); ?>"></div>
-<button class="aim-g-review aim-button" onclick="aim_deal_google_review_widget.show_widget_dialog()"></button>
+<button class="aim-g-review aim-button vsa-active" onclick="aim_deal_google_review_widget.show_widget_dialog()"></button>
 
-<div id="aim_lease_calculator" vin="<?php echo esc_attr($vin_num); ?>" dealer_id="<?php echo do_shortcode("[aimDealerID]"); ?>" widget_background="d70e25"  open_in_window="0" ></div>
+<div id="aim_lease_calculator vsa-active" vin="<?php echo esc_attr($vin_num); ?>" dealer_id="<?php echo do_shortcode("[aimDealerID]"); ?>" widget_background="d70e25"  open_in_window="0" ></div>
 <script src="https://automediaservices.com/apps/calculator/lease_calculator.js" type="text/javascript"></script>
 
 <?php
