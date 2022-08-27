@@ -10,7 +10,7 @@ function aim_buttonss_static_function() {
 </div> 
 
 <script src="https://automediaservices.com/apps/deal_widgets/deposit/js/widget.js"type="text/javascript"></script>
-<div id="aim_deal_deposit_app" class="aim_deal_deposit_app vsa-active" dealer_id="<?php echo do_shortcode("[aimDealerID]"); ?>" vin="<?php echo esc_attr($vin_num); ?>" >
+<div id="aim_deal_deposit_app" class="aim_deal_deposit_app" dealer_id="<?php echo do_shortcode("[aimDealerID]"); ?>" vin="<?php echo esc_attr($vin_num); ?>" >
 <button class="reserve-now aim-button" onclick="aim_deal_deposit_widget.show_widget_dialog({dealer_id:<?php echo do_shortcode("[aimDealerID]"); ?>,vin:'<?php echo esc_attr($vin_num); ?>',deposit:49})"></button></div>
 
 <script src="https://automediaservices.com/apps/test_drive/js/widget.js"type="text/javascript"></script>
