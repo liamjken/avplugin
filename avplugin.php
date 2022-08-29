@@ -2,7 +2,7 @@
    /*
    Plugin Name: Auto Verify Integration
    Plugin URI: /https://autoverify.com
-   description: Allows for the super-duper easy instaltion of Autoverfiy tools and CTAs on a wordpress site.
+   description: Allows for the Super-Duper easy instaltion of Autoverfiy tools and CTAs on a wordpress site.
    Version: 1.1.0
    Author: Liam Kennedy
    Author URI: https://autoverify.com
