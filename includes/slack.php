@@ -66,7 +66,7 @@ function my_send_slack_notification( $import_id ) {
     }
 
     $api_url = esc_attr( get_option('av_slack_url') );
-    $notification_text = ''.$avimportorder. ''  . $dealername . ' Import has been Complete. 
+    $notification_text = ''.$avimportorder. ' '  . $dealername . ' Import has been Complete. 
     Vehicles imported: ' . $imported . ' 
     Vehicles Updated: '.$updated.' 
     Vehicles Skipped: '.$skipped.'
