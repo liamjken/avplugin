@@ -21,6 +21,7 @@ function register_av_plugin_settings() {
   register_setting( 'av-plugin-settings-group', 'aim_dealer_id' );
   register_setting( 'av-plugin-settings-group', 'av_sdk_url' );
   register_setting( 'av-plugin-settings-group', 'av_slack_url' );
+  register_setting( 'av-plugin-settings-group', 'av_import_order' );
   register_setting( 'av-plugin-settings-group', 'dealer_color' );
   register_setting( 'av-plugin-settings-group', 'dealer_secondary_color' );
   register_setting( 'av-plugin-settings-group', 'dealer_background_color' );
@@ -63,6 +64,11 @@ function av_plugin_settings_page() {
       <tr valign="top">
       <th scope="row">AV Slack Webhook URL</th>
       <td><input type="text" name="av_slack_url" value="<?php echo esc_attr( get_option('av_slack_url') ); ?>" /></td>
+      </tr>
+
+      <tr valign="top">
+      <th scope="row">AV Import Order</th>
+      <td><input type="text" name="av_import_order" value="<?php echo esc_attr( get_option('av_import_order') ); ?>" /></td>
       </tr>
 
       <tr valign="top">
