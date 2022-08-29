@@ -51,6 +51,7 @@ function my_send_slack_notification( $import_id ) {
     global $wpdb;
     $table = $wpdb->prefix . "pmxi_imports";
     $dealername= esc_attr( get_bloginfo( 'name' ) );
+    $avimportorder= esc_attr( get_option('av_import_order') );
     
 
     if ( $soflyyrow = $wpdb->get_row( $wpdb->prepare( "SELECT * FROM `" . $table . "` WHERE `id` = '%d'", $import_id ) ) ) {
@@ -64,8 +65,8 @@ function my_send_slack_notification( $import_id ) {
         $deleted = $soflyyrow->deleted;
     }
 
-    $api_url = '';
-    $notification_text = '3. '  . $dealername . ' Import has been Complete. 
+    $api_url = esc_attr( get_option('av_slack_url') );
+    $notification_text = ''.$avimportorder. ''  . $dealername . ' Import has been Complete. 
     Vehicles imported: ' . $imported . ' 
     Vehicles Updated: '.$updated.' 
     Vehicles Skipped: '.$skipped.'
