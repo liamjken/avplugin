@@ -28,7 +28,7 @@ function wpai_send_email($import_id)
     date_default_timezone_set('US/Eastern');
 
     // Email message.
-    $body = '<p>***This email is autoamted to confirm the daily Import has completed***</p> <p>'.$dealername.' Inventory Import has completed at '. date("h:i:s A l jS \of F Y "). "\r\n" .'</p>'. '<p><strong>Number of Vehicles in Import:</strong>' .$count."\r\n".'</p>'.'<p><strong>Vehicles Imported:</strong>'.$imported."\r\n".'</p>'.'<p><strong>New vehicles Added:</strong>'.$created.'</p>';
+    $body = '<p>***This email is autoamted to confirm the daily Import has completed***</p> <p>'.$dealername.' Inventory Import ID: '.$import_id.' has completed at '. date("h:i:s A l jS \of F Y "). "\r\n" .'</p>'. '<p><strong>Number of Vehicles in Import:</strong>' .$count."\r\n".'</p>'.'<p><strong>Vehicles Imported:</strong>'.$imported."\r\n".'</p>'.'<p><strong>New vehicles Added:</strong>'.$created.'</p>';
     $body .= "\r\n" . '<p><strong>Vehicles Updated:</strong>'. $updated . "\r\n" .'</p>'. '<p><strong>Vehicles Not requiring update:</strong>' . $skipped . "\r\n" .'</p>'. '<p><strong>Vehicles Deleted:</strong>' . $deleted.'</p>';
 
 
@@ -66,7 +66,7 @@ function my_send_slack_notification( $import_id ) {
     }
 
     $api_url = esc_attr( get_option('av_slack_url') );
-    $notification_text = ''.$avimportorder. ' '  . $dealername . ' Import has been Complete. 
+    $notification_text = ''.$avimportorder. ' '  . $dealername . ' Import ID '.$import_id.' has been Complete. 
     Vehicles imported: ' . $imported . ' 
     Vehicles Updated: '.$updated.' 
     Vehicles Skipped: '.$skipped.'
@@ -88,3 +88,5 @@ function my_send_slack_notification( $import_id ) {
 }
 
 add_action('pmxi_after_xml_import', 'my_send_slack_notification', 10, 1);
+
+
