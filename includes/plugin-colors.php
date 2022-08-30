@@ -18,4 +18,3 @@
  ?>
      <?php //Open PHP tags
  }
- 
