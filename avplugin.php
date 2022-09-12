@@ -3,7 +3,7 @@
    Plugin Name: Auto Verify Integration
    Plugin URI: /https://autoverify.com
    description: Allows for the Super-Duper easy instaltion of Autoverfiy tools and CTAs on a wordpress site.
-   Version: 1.1.0
+   Version: 1.5.0
    Author: Liam Kennedy
    Author URI: https://autoverify.com
    License: GPL2
@@ -43,5 +43,6 @@ function plugin_scripts() {
     include( plugin_dir_path( __FILE__ ) . 'includes/gallery-srp-embed.php'); 
     include( plugin_dir_path( __FILE__ ) . 'includes/av-carfax-link.php'); 
     include( plugin_dir_path( __FILE__ ) . 'includes/slack.php'); 
+    include( plugin_dir_path( __FILE__ ) . 'includes/create-page.php'); 
     
     
