@@ -9,6 +9,10 @@
    License: GPL2
    */
 
+if(!function_exists('add_action')) {
+    echo 'Seems like you stumbled here by accident. 😝';
+exit;
+} 
    
 
 add_action('wp_enqueue_scripts', 'plugin_styles');
