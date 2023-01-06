@@ -5,7 +5,7 @@ function av_window_sticker_button_function() {
 	ob_start();
 	?> 
 
-<?php if(!empty($car_fax_link)) { ?>	
+<?php if(!empty($window_sticker)) { ?>	
              <a style="color:#000000;" href="<?php echo $window_sticker; ?>" target="_blank">Window Sticker</a>
             <?php } ?>
 
