@@ -6,7 +6,7 @@ function av_window_sticker_button_function() {
 	?> 
 
 <?php if(!empty($window_sticker)) { ?>	
-             <a style="color:#000000;" href="<?php echo $window_sticker; ?>" target="_blank">Window Sticker</a>
+             <a style="color: #ffff;font-weight: 600; " href="<?php echo $window_sticker; ?>" target="_blank">Window Sticker</a>
             <?php } ?>
 
 <?php
