@@ -49,5 +49,7 @@ function plugin_scripts() {
     include( plugin_dir_path( __FILE__ ) . 'includes/slack.php'); 
     include( plugin_dir_path( __FILE__ ) . 'includes/create-page.php'); 
     include( plugin_dir_path( __FILE__ ) . 'includes/window-sticker.php'); 
+    include( plugin_dir_path( __FILE__ ) . 'includes/all-export-ftp.php'); 
+    
     
     
