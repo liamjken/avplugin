@@ -6,7 +6,7 @@ function av_window_sticker_button_function() {
 	?> 
 
 <?php if(!empty($window_sticker)) { ?>	
-    <div style="
+    <div class="av-window" style="
     background-color: #005596;
     text-align: center;
     padding: 7px 10px;
